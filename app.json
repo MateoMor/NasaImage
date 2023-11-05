@@ -4,10 +4,10 @@
     "slug": "NasaImage",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/nasa-logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/nasa-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/nasa-logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.frisded.NasaImage"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/nasa-logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1298df52-f85b-473c-aac4-5467e82f2a3d"
+      }
     }
   }
 }
